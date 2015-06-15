@@ -1,0 +1,11 @@
+'use strict';
+
+module.exports = {
+  githubhook: {
+    //this object is passed directly to githubhook
+    //  see https://www.npmjs.com/package/githubhook for details
+
+    secret: 'some random string',
+    path: '/github/callback'
+  }
+}
